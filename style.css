@@ -95,6 +95,26 @@ body {
     margin: 0 auto;
 }
 
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: linear-gradient(92.1deg, #ea7125 6.06%, #d6083b 99.5%);
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    display: none;
+}
+
+.back_to_top-show {
+    display: block;
+}
+
 /*----ШАПКА---------------------------------------------------------------------------------*/
 
 .header {
@@ -995,6 +1015,7 @@ main {
 .footer__cont-btn {
     background: linear-gradient(92.1deg, #ea7125 6.06%, #d6083b 99.5%);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
